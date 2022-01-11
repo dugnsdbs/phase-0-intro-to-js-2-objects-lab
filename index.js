@@ -1,6 +1,4 @@
 
-
-// Write your solution in this file!
 let employee={
   name:"Sam",
   streetAddress: "11 Broadway"
@@ -26,4 +24,4 @@ function destructivelyDeleteFromEmployeeByKey(employee, key){
   employee[key]=newEmployee[key];
   return employee;
 
-}
+} 
